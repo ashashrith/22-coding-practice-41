@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+}
+
+.content-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 12px;
+  height: 50vh auto;
+  width: auto;
+  background-color: #f1f5f9;
+}
+
+.heading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.left-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #cbd5e1;
+  height: 50vh;
+  width: auto;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 14vh;
+  background-color: transparent;
+}
